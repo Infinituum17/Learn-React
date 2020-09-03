@@ -3,9 +3,9 @@
 - [x] Create a React App
 - [x] JSX
 - [x] Components
-    - [ ] Functional Components
-    - [ ] Class Components
-- [ ] Props
+    - [x] Functional Components
+    - [x] Class Components
+- [x] Props
 - [ ] State
 - [ ] Conditional Rendering
 - [ ] Component Lifecycle
