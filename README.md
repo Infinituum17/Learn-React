@@ -7,7 +7,7 @@
     - [x] Class Components
 - [x] Props
 - [x] State
-    - [ ] Async State
+    - [x] Async State
 - [ ] Conditional Rendering
 - [ ] Component Lifecycle
 - [ ] Lists and Keys

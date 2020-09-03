@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+// Class Component STATEFUL
 class Clock extends React.Component {
     constructor(props){
         super(props);
@@ -27,6 +29,8 @@ class Clock extends React.Component {
     tick() {
         /*
          * this.setState({obj}): Sets variables contained in this.state
+         * this.setState((state, props) => ({obj})): Async method of setting variables in this.state:
+         * - It's commonly used if two async algorithms share this.state.variable
          */
         this.setState({
             date: new Date()

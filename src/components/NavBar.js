@@ -9,7 +9,7 @@ import settings_logo from '../assets/settings.svg';
 import '../styles/NavBar.css';
 
 /*
- * Class as Component
+ * Class as Component STATELESS (static)
  *
  * - Class always extends React.Component
  * - Props is available inside the class as a property (this.props)
