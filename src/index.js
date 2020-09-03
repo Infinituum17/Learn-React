@@ -4,6 +4,13 @@ import './styles/index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+/*
+ * ReactDOM renders custom React Components using the ".render()" method
+ *
+ * The "render" method requires two arguments:
+ * - The actual JSX to render
+ * - The id where it can render all the Components
+ */
 ReactDOM.render(
   <React.StrictMode>
     <App />

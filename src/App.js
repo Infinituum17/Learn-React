@@ -1,5 +1,7 @@
 import React from 'react';
+
 import NavBar from './components/NavBar'
+import Clock from './components/Clock';
 
 import './styles/App.css';
 
@@ -10,12 +12,7 @@ function App() {
       <main>
         <div className="mainContent">
           <div className="mainPage">
-            A<br/>
-            A<br/>
-            A<br/>
-            A<br/>
-            A<br/>
-            A<br/>
+            <Clock />
           </div>
         </div>
       </main>
