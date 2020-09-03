@@ -12,7 +12,9 @@ function App() {
       <main>
         <div className="mainContent">
           <div className="mainPage">
-            <Clock />
+            <div className="clock">
+              Current time: <Clock />
+            </div>
           </div>
         </div>
       </main>

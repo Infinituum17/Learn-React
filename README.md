@@ -6,7 +6,7 @@
     - [x] Functional Components
     - [x] Class Components
 - [x] Props
-- [ ] State
+- [x] State
 - [ ] Conditional Rendering
 - [ ] Component Lifecycle
 - [ ] Lists and Keys

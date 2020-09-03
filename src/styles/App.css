@@ -23,6 +23,15 @@
   font-size: 3rem;
 }
 
+.clock {
+  position: fixed;
+  right: 1%;
+  text-align: center;
+  background-color: #252525;
+  padding: 1.5rem;
+  width: max-content;
+}
+
 @media only screen and (min-width: 600px){
   .mainContent {
     padding-top: 0;
