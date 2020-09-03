@@ -1,0 +1,121 @@
+:root {
+    --bg-color: #252525;
+    --sec-bg-color: #303030;
+    color: white;
+}
+
+img {
+    height: 4.5rem;
+    width: 5rem;
+}
+
+.description {
+    font-size: 2rem;
+    text-decoration: none;
+    display: none;
+    transition: 1s display;
+    animation-delay: 0.5s;
+    animation: displaytext 1s ease;
+}
+
+@media only screen and (min-width: 600px) {
+    .navbar-item {
+        cursor: pointer;
+        
+        padding: 0;
+        margin: 0;
+        margin-top: 0.5rem;
+        
+        background-color: var(--bg-color);
+        display: flex;
+        align-items: center;
+    
+        transition: background-color 0.5s ease;
+    }    
+
+    a:link {
+        color: white;
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar:hover .description {
+        display: unset;
+        margin-left: 1rem;
+    }
+
+    .navbar {
+        transition: width 0.5s ease;
+        position:fixed;
+        height: 100vh;
+        width: 5rem;
+        background-color: var(--bg-color);
+        margin:0;
+        padding: 0;
+    }
+    
+    .navbar-list {
+        margin:0;
+        padding: 0;
+        height: 100%;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .navbar-item:hover {
+        background-color: var(--sec-bg-color);
+    }
+    
+    .navbar:hover {
+        width: 15rem;
+    }
+
+    .navbar-item:last-child {
+        margin-top:auto;
+        margin-bottom: 0.5rem;
+    }
+    
+    @keyframes displaytext {
+        0% {
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        position: fixed;
+        width: 100vw;
+        background-color: var(--bg-color);
+        margin:0;
+        padding: 0;
+        bottom: 0%;
+    }
+
+    .navbar-item {
+        cursor: pointer;
+        padding: 0;
+        margin: 0;
+    }  
+
+    .navbar-list {
+        margin:0;
+        padding: 0;
+        height: 100%;
+        list-style: none;
+        display: flex;
+    }
+
+    .navbar-item:last-child {
+        margin-left:auto;
+    }
+}
