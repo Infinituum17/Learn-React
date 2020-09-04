@@ -12,6 +12,7 @@
 - [x] Component Lifecycle
 - [x] Conditional Rendering
 - [x] Lists and Keys
+- [x] Controlled Forms
 - [ ] Composition vs Inheritance
 - [ ] Basic Hooks
     - [ ] useState
