@@ -8,8 +8,9 @@
 - [x] Props
 - [x] State
     - [x] Async State
-- [ ] Conditional Rendering
-- [ ] Component Lifecycle
+- [x] Events
+- [x] Component Lifecycle
+- [x] Conditional Rendering
 - [ ] Lists and Keys
 - [ ] Composition vs Inheritance
 - [ ] Basic Hooks
