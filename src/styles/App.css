@@ -1,5 +1,7 @@
 :root {
   --main-color: #151515;
+  --secn-color: #252525;
+  --thir-color: #303030;
   font-size: 16px;
   background-color: var(--main-color);
   color: white;
@@ -14,7 +16,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #252525;
+  background-color: var(--secn-color);
 }
 
 .mainPage {
@@ -24,12 +26,18 @@
 }
 
 .clock {
-  position: fixed;
-  right: 1%;
   text-align: center;
-  background-color: #252525;
+  background-color: var(--thir-color);
   padding: 1.5rem;
   width: max-content;
+}
+
+.todos {
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  background-color: var(--thir-color);
 }
 
 @media only screen and (min-width: 600px){

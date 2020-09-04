@@ -1,0 +1,11 @@
+.todolist {
+    padding: 0;
+    padding-left: 0.5rem;
+    padding-bottom: 1rem;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.todolist-item{
+    list-style: none;
+}

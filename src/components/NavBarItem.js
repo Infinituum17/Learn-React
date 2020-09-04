@@ -9,7 +9,7 @@ import '../styles/NavBar.css';
  */
 function NavBarItem(props) {
     return (
-        <a href="/#" className="navbar-item">
+        <a href={props.link} className="navbar-item">
             <img src={props.icon} alt={props.iconAlt}></img>
             <div className="description">{props.title}</div>
         </a>

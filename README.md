@@ -11,7 +11,7 @@
 - [x] Events
 - [x] Component Lifecycle
 - [x] Conditional Rendering
-- [ ] Lists and Keys
+- [x] Lists and Keys
 - [ ] Composition vs Inheritance
 - [ ] Basic Hooks
     - [ ] useState
@@ -72,6 +72,7 @@
 
 ![React Roadmap](https://roadmap.sh/roadmaps/react.png)
 > credits: https://roadmap.sh/react
+> icons: https://fontawesome.com/
 # Errors I run into while working at this project:
 ## Git:
 ### <code>fatal: no upstream configured for branch 'master'</code>
