@@ -71,7 +71,7 @@
 <br/>
 
 ![React Roadmap](https://roadmap.sh/roadmaps/react.png)
-> credits: https://roadmap.sh/react
+> credits: https://roadmap.sh/react <br/>
 > icons: https://fontawesome.com/
 # Errors I run into while working at this project:
 ## Git:

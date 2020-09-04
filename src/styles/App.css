@@ -25,25 +25,55 @@
   font-size: 3rem;
 }
 
-.clock {
-  text-align: center;
-  background-color: var(--thir-color);
-  padding: 1.5rem;
-  width: max-content;
-}
-
-.todos {
-  margin-top: 0.5rem;
-  margin-right: 0.5rem;
-  padding-left: 1.5rem;
-  padding-top: 0.5rem;
-  background-color: var(--thir-color);
-}
-
 @media only screen and (min-width: 600px){
   .mainContent {
     padding-top: 0;
     margin: 0;
     padding-left: 5rem;
   }
+
+  .mainPage {
+    display: flex;
+    height: fit-content;
+  }
+
+  .todos {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    height: 100%;
+    background-color: var(--thir-color);
+  }
+
+  .clock {
+    text-align: center;
+    background-color: var(--thir-color);
+    padding: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mainPage {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .clock {
+    margin-right: 0.5rem;
+    text-align: center;
+    background-color: var(--thir-color);
+    padding: 1.5rem;
+  }
+
+  .todos {
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    height: 100%;
+    background-color: var(--thir-color);
+  }
+
 }
