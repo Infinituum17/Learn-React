@@ -13,7 +13,7 @@
 - [x] Conditional Rendering
 - [x] Lists and Keys
 - [x] Controlled Forms
-- [ ] Composition vs Inheritance
+- [x] Composition vs Inheritance
 - [ ] Basic Hooks
     - [ ] useState
     - [ ] useEffect
