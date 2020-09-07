@@ -11,6 +11,8 @@ p {
 }
 
 button {
+    outline: 0;
+    cursor: pointer;
     background-color: #303030;
     border-style: solid;
     border-color: #202020;
