@@ -20,11 +20,11 @@
         - [x] Without cleanup
         - [x] With cleanup
 ## Advanced Topics
-- [ ] Hooks
+- [x] Hooks
     - [ ] Writing your own Hooks
-    - [ ] Common Hooks
+    - [x] Common Hooks
         - [ ] useCallback
-        - [ ] useRef
+        - [x] useRef
         - [ ] useMemo
         - [ ] useReducer
         - [ ] useContext
