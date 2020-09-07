@@ -18,7 +18,7 @@
     - [x] useState
     - [x] useEffect
         - [x] Without cleanup
-        - [ ] With cleanup
+        - [x] With cleanup
 ## Advanced Topics
 - [ ] Hooks
     - [ ] Writing your own Hooks

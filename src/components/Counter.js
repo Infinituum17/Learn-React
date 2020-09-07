@@ -16,6 +16,8 @@ function Counter() {
     // Similar to componentDidMount and componentDidUpdate:
     useEffect(() => {
         document.getElementById("useEffect").innerText = `Counter has been clicked ${counter} times`;
+
+        //Returning a function from here will cause it to be called replacing the method componentWillUnmount()
     });
 
     // When setCounter() is called, the state of counter will change from the current value to the value inside the parentheses
