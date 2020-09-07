@@ -1,7 +1,7 @@
-// STATEFUL Functional Component: using states with useState()
+// STATEFUL Functional Component: using states and effects with useState() and useEffect()
 
-// Importing useState()
-import React, {useState} from 'react';
+// Importing useState() and useEffect()
+import React, {useState, useEffect} from 'react';
 
 import '../styles/Counter.css';
 
@@ -13,12 +13,15 @@ function Counter() {
      */
     const [counter, setCounter] = useState(0);
 
-    /*
-     * When setCounter() is called, the state of counter will change from the current value to the value inside the parentheses
-     */
+    // Similar to componentDidMount and componentDidUpdate:
+    useEffect(() => {
+        document.getElementById("useEffect").innerText = `Counter has been clicked ${counter} times`;
+    });
+
+    // When setCounter() is called, the state of counter will change from the current value to the value inside the parentheses
     return(
         <div className="counterStyle">
-            <p>Counter has been clicked {counter} times</p>
+            <p id="useEffect"></p>
             <button onClick={() => setCounter(counter + 1)}>
                 Click me
             </button>

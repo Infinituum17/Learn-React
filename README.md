@@ -16,7 +16,7 @@
 - [x] Composition vs Inheritance
 - [x] Basic Hooks
     - [x] useState
-    - [ ] useEffect
+    - [x] useEffect
 ## Advanced Topics
 - [ ] Hooks
     - [ ] Writing your own Hooks
