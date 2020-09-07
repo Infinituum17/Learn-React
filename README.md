@@ -34,7 +34,7 @@
 - [x] Code Splitting
 - [ ] High Order Components
 - [ ] Portals
-- [ ] Error Boundaries
+- [x] Error Boundaries
 - [ ] Fiber Architecture :arrow_forward: (<b>Learn anytime</b>)
 ## Ecosystem
 - [ ] Routers
