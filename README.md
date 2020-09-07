@@ -29,7 +29,7 @@
         - [ ] useReducer
         - [x] useContext
 - [x] Context
-- [ ] Refs
+- [x] Refs
 - [ ] Render Props
 - [x] Code Splitting
 - [ ] High Order Components
