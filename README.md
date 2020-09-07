@@ -27,8 +27,8 @@
         - [x] useRef
         - [x] useMemo
         - [ ] useReducer
-        - [ ] useContext
-- [ ] Context
+        - [x] useContext
+- [x] Context
 - [ ] Refs
 - [ ] Render Props
 - [ ] Code Splitting
