@@ -25,7 +25,7 @@
     - [x] Common Hooks
         - [x] useCallback
         - [x] useRef
-        - [ ] useMemo
+        - [x] useMemo
         - [ ] useReducer
         - [ ] useContext
 - [ ] Context
