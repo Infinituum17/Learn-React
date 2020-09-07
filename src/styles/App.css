@@ -42,7 +42,6 @@
     margin-left: 0.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    height: 100%;
     background-color: var(--thir-color);
   }
 
@@ -50,6 +49,11 @@
     text-align: center;
     background-color: var(--thir-color);
     padding: 1.5rem;
+  }
+
+  .counter {
+    text-align: center;
+    background-color: var(--thir-color);
   }
 }
 
@@ -76,4 +80,10 @@
     background-color: var(--thir-color);
   }
 
+  .counter {
+    text-align: center;
+    background-color: var(--thir-color);
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+  }
 }

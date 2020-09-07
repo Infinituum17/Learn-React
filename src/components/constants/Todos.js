@@ -1,3 +1,5 @@
+// Example of data
+
 export default [
     {
         text: 'Do the laundry',

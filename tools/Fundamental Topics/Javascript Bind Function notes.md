@@ -11,4 +11,4 @@ Inside the constructor you can declare:
 
 Now this.<> will be available inside the method
 
->link: https://developer.mozilla.org/it/docs/Web/JavaScript/Reference/Global_Objects/Function/bind
+>link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind

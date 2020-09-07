@@ -1,7 +1,7 @@
+// STATEFUL Class Component
+
 import React from 'react';
 
-
-// Class Component STATEFUL
 class Clock extends React.Component {
     constructor(props){
         super(props);

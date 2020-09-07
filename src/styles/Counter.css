@@ -1,0 +1,21 @@
+.counterStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    margin-bottom: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+button {
+    background-color: #303030;
+    border-style: solid;
+    border-color: #202020;
+    border-radius: 15px;
+    color: white;
+    margin: 1rem;
+    width: 25%;
+}

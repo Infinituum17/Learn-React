@@ -1,3 +1,5 @@
+// STATEFUL Class Component: change styles
+
 import React from 'react';
 
 import '../styles/TodoList.css';

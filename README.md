@@ -14,8 +14,8 @@
 - [x] Lists and Keys
 - [x] Controlled Forms
 - [x] Composition vs Inheritance
-- [ ] Basic Hooks
-    - [ ] useState
+- [x] Basic Hooks
+    - [x] useState
     - [ ] useEffect
 ## Advanced Topics
 - [ ] Hooks

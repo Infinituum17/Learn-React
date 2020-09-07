@@ -3,6 +3,7 @@ import React from 'react';
 import NavBar from './components/NavBar'
 import Clock from './components/Clock';
 import TodoList from './components/TodoList';
+import Counter from './components/Counter';
 
 import './styles/App.css';
 
@@ -20,6 +21,9 @@ function App() {
             </div>
             <div className="todos">
               Todos:<br/><TodoList todos={todos}/>
+            </div>
+            <div className="counter">
+              <Counter />
             </div>
           </div>
         </div>

@@ -1,10 +1,10 @@
+// STATELESS Functional Component
+
 import React from 'react';
 
 import '../styles/NavBar.css';
 
 /*
- * Function as Component
- * 
  * - Props is a parameter of the Functional Component
  */
 function NavBarItem(props) {
