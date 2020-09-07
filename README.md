@@ -31,7 +31,7 @@
 - [x] Context
 - [ ] Refs
 - [ ] Render Props
-- [ ] Code Splitting
+- [x] Code Splitting
 - [ ] High Order Components
 - [ ] Portals
 - [ ] Error Boundaries
