@@ -31,7 +31,7 @@
 - [x] Context
 - [x] Refs
 - [x] Fragments
-- [ ] Render Props
+- [x] Render Props
 - [x] Code Splitting
 - [x] High Order Components
 - [x] Portals
