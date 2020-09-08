@@ -30,6 +30,7 @@
         - [x] useContext
 - [x] Context
 - [x] Refs
+- [x] Fragments
 - [ ] Render Props
 - [x] Code Splitting
 - [ ] High Order Components
