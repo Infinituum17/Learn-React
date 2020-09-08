@@ -33,7 +33,7 @@
 - [x] Fragments
 - [ ] Render Props
 - [x] Code Splitting
-- [ ] High Order Components
+- [x] High Order Components
 - [ ] Portals
 - [x] Error Boundaries
 - [ ] Fiber Architecture :arrow_forward: (<b>Learn anytime</b>)
