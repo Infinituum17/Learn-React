@@ -34,7 +34,7 @@
 - [ ] Render Props
 - [x] Code Splitting
 - [x] High Order Components
-- [ ] Portals
+- [x] Portals
 - [x] Error Boundaries
 - [ ] Fiber Architecture :arrow_forward: (<b>Learn anytime</b>)
 ## Ecosystem
