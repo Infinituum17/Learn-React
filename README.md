@@ -53,8 +53,8 @@
     - [ ] Jest
     - [ ] React Testing Library
     - [ ] Cypress
-- [ ] State Management
-    - [ ] Context / State
+- [x] State Management
+    - [x] Context / State
     - [ ] Redux
     - [ ] MobX :arrow_forward: (<b>Alternative</b>)
 - [ ] API Calls
@@ -66,8 +66,8 @@
     - [ ] use-http
 - [ ] Mobile
     - [ ] React Native
-- [ ] Styling
-    - [ ] Styled Components
+- [x] Styling
+    - [x] Styled Components
     - [ ] Emotion :arrow_forward: (<b>Alternative</b>)
     - [ ] Chakra UI :arrow_forward: (<b>Alternative</b>)
     - [ ] Material UI :arrow_forward: (<b>Alternative</b>)
@@ -77,7 +77,3 @@
 ![React Roadmap](https://roadmap.sh/roadmaps/react.png)
 > credits: https://roadmap.sh/react <br/>
 > icons: https://fontawesome.com/
-# Errors I run into while working at this project:
-## Git:
-### <code>fatal: no upstream configured for branch 'master'</code>
-### Solution: <code>git push --set-upstream <b>remote-name</b> master</code>
